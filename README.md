@@ -22,7 +22,7 @@ sudo apt install git
 
 Crear código de seguridad que nos conecta a github
 rsa: protocoo de ecriptación(tipo de algoritmo) b: cantidad de bits
-ssh-keygen -t rsa -b 4096 -jrodriguezm216@gmail.com 
+ssh-keygen -t rsa -b 4096 -C "jrodriguezm216@gmail.com" 
 
 se genera el key fingerprint
 The key fingerprint is:
@@ -39,4 +39,4 @@ copiamos el contenido que se encuentra dentro de cat id_rsa.pub
 
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDRY4trnWhILTWXEvUDkCDKehyZ5u3KxN3fwXZeEVx+49MEgsysVHtK0ur3/MHbFlbiB8wo6/cmjvRkRZDz0/1GA5oVPt5HLQ3CGpO6UTi7uJQUeKiW2nw2jSD2PEM7nF9QxX1AcKQbKuNiKxAdHXLLtj/fsnRDkxv1iToKvZcr/yXMs0SIlEP+d8CRWic/iOO9k6wYzUu3QTMNZyflf+IbaQ7UOPIFaSaW87MFUBSYY43GJfB2xfpAOJCIa/fyJ71C/OkhcDCNSHwVr3mJtgUuN5o5rRmoIIEdcN/4okUHmY++D80xNzFBrwqo7ge4NmttWZqCHSH4aKstZEuy8UJO1g4Le9WpOuVWnaa0btQ2FjqGPHGx5yJWAMK2aHg3rnhqCwW6OpLwXRpuoFXoyJDLPbRUyS/ughOHsLGqhPoLrBzc4Qw4xQPCGV7jkNvoOomlI7yFMN1t1juXeNbG+i/V8DmZHT7FY5tJMfxFoQpkL8W0nKET5S
 
-
+Abrir GitHub y configurar una llave pública - privada
